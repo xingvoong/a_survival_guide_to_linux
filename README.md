@@ -61,6 +61,7 @@ Up next, in your terminal, type: vm_stat
 
     unix_tutorial xingvoong$ vm_stat
    explanation:
+   
    **unix_tutorial** is our working directory
    
    **xing_voong** is my user name on my personal laptop
