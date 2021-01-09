@@ -37,6 +37,7 @@ to start:
 	in your terminal, type:
 	
     $mkdir unix_tutorial
+    
     $cd unix_tutorial
 
 ## mkdir
