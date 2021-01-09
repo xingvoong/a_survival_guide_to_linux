@@ -42,6 +42,7 @@ to start:
 
 ## mkdir
 stands for make directory
+
 ***mkdir [name_directory]***  create a directory names name_directory if it does not exist
 
 ## cd
