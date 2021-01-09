@@ -47,7 +47,8 @@ stands for make directory
 stands for change directory. 
 ***cd [name_directory]*** changes the current working directory to name_directory
 
-    $mkdir unix_tutorial   
+    $mkdir unix_tutorial
+    
     $cd unix_tutorial
 
 what we did above were:
