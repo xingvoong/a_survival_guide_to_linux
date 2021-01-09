@@ -1,6 +1,9 @@
 ﻿Table of Contents:
+ 
 [I. Introduction](#i-introduction)
+
 [II. So Why Unix Command Line](#ii-so-why-unix-command-line)
+
 [III. Common Commands](#iii-common-commands)
 	
 
@@ -48,7 +51,9 @@ stands for change directory.
     $cd unix_tutorial
 
 what we did above were:
+
 first: we create a directory name unix_tutorial
+
 second: we change the working directory to unix_tutorial.
 
 Yay!  We have set up our work space.
@@ -57,8 +62,11 @@ Up next, in your terminal, type: vm_stat
     unix_tutorial xingvoong$ vm_stat
    explanation:
    **unix_tutorial** is our working directory
+   
    **xing_voong** is my user name on my personal laptop
+   
    **$** the dollar sign is the start of a unix command
+   
    **vm_stat** is a unix command
 
 ## vm_stat
@@ -87,6 +95,7 @@ Up next, in your terminal, type: vm_stat
     Swapouts:                                  2560.
 
 ***vm_stat*** stands for virtual memory statistics.
+
 ***vm_stat*** display information about CPU memory and lock I/O
 
 ## echo $PATH
@@ -95,6 +104,7 @@ Up next, in your terminal, type: vm_stat
     ~/mongodb-macos-x86_64-enterprise-4.4.0/bin:/Users/xingvoong/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/usr/local/opt/ruby/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/anaconda/bin:/bin:/sbin:Users/bin:/Users/local/sbin:/Users/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin
 
 $PATH is a enviroment variable.
+
 echo $PATH displays the enviroment variable that you are currently on.
 
 ## cal -y
@@ -116,8 +126,11 @@ echo $PATH displays the enviroment variable that you are currently on.
            
 
 ***cal -y*** shows the current year calandar
+
 For each command in unix, there are many options.  Options are represented by dash **"-"**.
+
 In the above command, ***-y*** mean choose the ***year*** option.
+
 
 ## man
 To get more information and options for a command, use ***man***.
