@@ -7,7 +7,8 @@
 
 4: my own experiences
 
-Table of Contents: \
+Table of Contents:
+
 [I. Introduction](#i-introduction) 
 
 [II. So Why Unix Command Line](#ii-so-why-unix-command-line) 
