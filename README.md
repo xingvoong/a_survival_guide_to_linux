@@ -1,14 +1,14 @@
-﻿sources and references:
-1: LINUX®ESSENTIALS, Second Edition by Christine Bresnahan and Richard Blum \
-2: CS160A, City College of San Francisco \
+﻿sources and references:\
+1: LINUX®ESSENTIALS, Second Edition by Christine Bresnahan and Richard Blum
+2: CS160A, City College of San Francisco
 
-3: https://linuxhint.com/bash_wildcard_tutorial/ \
+3: https://linuxhint.com/bash_wildcard_tutorial/
 
-4: my own experiences  \
+4: my own experiences
 
-Table of Contents:
-[I. Introduction](#i-introduction)
-[II. So Why Unix Command Line](#ii-so-why-unix-command-line)
+Table of Contents: \
+[I. Introduction](#i-introduction) \
+[II. So Why Unix Command Line](#ii-so-why-unix-command-line) \
 [III. Common Commands](#iii-common-commands)
 	
 
