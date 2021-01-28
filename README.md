@@ -1,8 +1,10 @@
 ﻿sources and references:
-1: LINUX®ESSENTIALS, Second Edition by Christine Bresnahan and Richard Blum
-2: CS160A, City College of San Francisco
-3: https://linuxhint.com/bash_wildcard_tutorial/
-4: my own experiences
+1: LINUX®ESSENTIALS, Second Edition by Christine Bresnahan and Richard Blum \
+2: CS160A, City College of San Francisco \
+
+3: https://linuxhint.com/bash_wildcard_tutorial/ \
+
+4: my own experiences  \
 
 Table of Contents:
 [I. Introduction](#i-introduction)
@@ -47,27 +49,28 @@ That single reason is good enough for us to learn them.
 to start:
 1. Launch your terminal in Mac.
 2. Create a working directory for this tutorial:
-	please follow the steps for now, I will explain later.
-	in your terminal, type:
+	please follow the steps for now, I will explain later. \
+	In your terminal, type:
 	
     $mkdir unix_tutorial
+    \
     $cd unix_tutorial
 
 ## mkdir
-stands for make directory
+stands for make directory \
 ***mkdir [name_directory]***  create a directory names name_directory if it does not exist
 
 ## cd
-stands for change directory. 
+stands for change directory. \
 ***cd [name_directory]*** changes the current working directory to name_directory
 
     $mkdir unix_tutorial   
     $cd unix_tutorial
 
 what we did above were:
-first: we create a directory name unix_tutorial
-second: we change the working directory to unix_tutorial.
-Some extra tips on `cd` command
+first: we create a directory name unix_tutorial \
+second: we change the working directory to unix_tutorial. \
+Some extra tips on `cd` command \
 to go back to the previous directory, do:
 
     $ cd ..
@@ -80,10 +83,10 @@ Up next, in your terminal, type: vm_stat
 
     unix_tutorial xingvoong$ vm_stat
    explanation:
-   **unix_tutorial** is our working directory
-   **xing_voong** is my user name on my personal laptop
-   **$** the dollar sign is the start of a unix command
-   **vm_stat** is a unix command
+   **unix_tutorial** is our working directory\
+   **xing_voong** is my user name on my personal laptop\
+   **$** the dollar sign is the start of a unix command \
+   **vm_stat** is a unix command 
 
 ## vm_stat
     Mach Virtual Memory Statistics: (page size of 4096 bytes)
@@ -110,7 +113,7 @@ Up next, in your terminal, type: vm_stat
     Swapins:                                   2560.
     Swapouts:                                  2560.
 
-***vm_stat*** stands for virtual memory statistics.
+***vm_stat*** stands for virtual memory statistics. \
 ***vm_stat*** display information about CPU memory and lock I/O
 
 ## echo $PATH
@@ -144,7 +147,7 @@ For each command in unix, there are many options.  Options are represented by da
 In the above command, ***-y*** mean to choose the ***year*** option.
 
 ## man
-To get more information and options for a command, use ***man***.
+To get more information and options for a command, use ***man***.\
 Exp:
 
     $ man vm_stat 
@@ -185,8 +188,8 @@ To overcome that, we could use
    
     $ touch file2.txt
    
-   create a second file for concatenating
-   in your editor, open file2.txt, type "this is a second file"
+   create a second file for concatenating \
+   in your editor, open file2.txt, type "this is a second file" \
    to concatenate a_file and file2, do:
    
 	$ cat a_file.txt file2.txt
@@ -204,7 +207,7 @@ To overcome that, we could use
     $ ls
     a_file.txt  file2.txt  file3.txt
  Now, there are three files in this directory.
- to view the content of file3.txt
+ To view the content of file3.txt
  
 
     $ cat file3.txt
@@ -252,7 +255,7 @@ Now, our working directory look likes this:
     a_file.txt  file2.txt  file3.txt
 ## cp
 copy file_a to file_b
-create file_a.txt with content: "this is file a"
+create file_a.txt with content: "this is file a" \
 create file_b.txt with content "this is file b"
 
     $ cp file_a.txt file_b.txt
@@ -261,7 +264,7 @@ create file_b.txt with content "this is file b"
 Now, the content in file a is also the content in file b
 
 ## mv
-mv file_a to file_b
+mv file_a to file_b \
 first, change the content in file_b.txt back to "this is file b"
 
     $ mv file_a.txt file_b.txt
@@ -398,11 +401,11 @@ Let's break it down, `ls` lists all the files and directories in the current wor
 
   ## sort
   create a file name letters.txt with content:
-  a
-  c
-  e
-  b
-  d
+  a \
+  c \
+  e \
+  b \
+  d 
 
     $ cat letters.txt
     a
@@ -463,16 +466,3 @@ As we always do, let's break it down.
  
     echo "a,b"  | cut -d, -f2
     a
-
-    
-    
-
-
-
-    
-
-
-    
-
- 
- 
