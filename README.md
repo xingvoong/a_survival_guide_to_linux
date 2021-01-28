@@ -1,6 +1,7 @@
 ﻿sources and references:\
 1: LINUX®ESSENTIALS, Second Edition by Christine Bresnahan and Richard Blum
-2: CS160A, City College of San Francisco
+
+2: CS160A, City College of San Francisco 
 
 3: https://linuxhint.com/bash_wildcard_tutorial/
 
